@@ -11,5 +11,7 @@
         public string Titulo { get; set; }
 
         public bool Ativa { get; set; }
+
+        public List<Produto> Produtos { get; set; }
     }
 }

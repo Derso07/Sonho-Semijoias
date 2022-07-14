@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SonhoSemijoiasBusiness.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,6 @@ namespace SonhoSemijoiasDataBase.Context
     {
         public SonhoDbContext(DbContextOptions<SonhoDbContext> options)
             : base(options) { }
-
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,5 +30,7 @@ namespace SonhoSemijoiasDataBase.Context
                 relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<Produto> Produtos { get; set; }
     }
 }

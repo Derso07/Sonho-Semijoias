@@ -1,11 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SonhoSemijoiasBusiness.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SonhoSemijoiasDataBase.Mappings
 {
@@ -13,7 +8,38 @@ namespace SonhoSemijoiasDataBase.Mappings
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            
+            builder.ToTable("Produto");
+
+            builder.HasKey(p => p.Id);
+
+            builder.Property(p => p.Descricao)
+                .IsRequired()
+                .HasColumnType("varchar(200)");
+
+            builder.Property(p => p.Quantidade)
+                .IsRequired()
+                .HasColumnType("int");
+
+            builder.Property(p => p.Titulo)
+                .IsRequired()
+                .HasColumnType("varchar(80)");
+
+            builder.Property(p => p.Preco)
+                .IsRequired()
+                .HasColumnType("double");
+
+            builder.Property(p => p.Ativo)
+                .IsRequired()
+                .HasColumnType("tinyint(1)");
+
+            builder.Property(p => p.DataCadastro)
+                .IsRequired()
+                .HasColumnType("datetime");
+
+            builder.HasOne<Categoria>(p => p.Categoria)
+                .WithMany(p => p.Produtos)
+                .HasForeignKey(p => p.CategoriaId);
+
         }
     }
 }
