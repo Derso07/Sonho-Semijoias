@@ -30,7 +30,8 @@ namespace SonhoSemijoiasDataBase.Context
                 relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
             base.OnModelCreating(modelBuilder);
         }
-
         public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
     }
+   
 }

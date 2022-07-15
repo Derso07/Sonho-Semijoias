@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Migrations\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SonhoSemijoiasDataBase\SonhoSemijoiasDataBase.csproj" />
   </ItemGroup>
 

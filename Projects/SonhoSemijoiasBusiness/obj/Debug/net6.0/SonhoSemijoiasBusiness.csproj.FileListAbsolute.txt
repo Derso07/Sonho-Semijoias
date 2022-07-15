@@ -1,0 +1,12 @@
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\bin\Debug\net6.0\SonhoSemijoiasBusiness.deps.json
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\bin\Debug\net6.0\SonhoSemijoiasBusiness.dll
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\bin\Debug\net6.0\SonhoSemijoiasBusiness.pdb
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\SonhoSemijoiasBusiness.csproj.AssemblyReference.cache
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\SonhoSemijoiasBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\SonhoSemijoiasBusiness.AssemblyInfoInputs.cache
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\SonhoSemijoiasBusiness.AssemblyInfo.cs
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\SonhoSemijoiasBusiness.csproj.CoreCompileInputs.cache
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\SonhoSemijoiasBusiness.dll
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\refint\SonhoSemijoiasBusiness.dll
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\SonhoSemijoiasBusiness.pdb
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasBusiness\obj\Debug\net6.0\ref\SonhoSemijoiasBusiness.dll

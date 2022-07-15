@@ -1,11 +1,14 @@
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\bin\Debug\net6.0\SonhoSemijoiasDataBase.deps.json
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\bin\Debug\net6.0\SonhoSemijoiasDataBase.dll
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\bin\Debug\net6.0\SonhoSemijoiasDataBase.pdb
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\bin\Debug\net6.0\SonhoSemijoiasBusiness.dll
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\bin\Debug\net6.0\SonhoSemijoiasBusiness.pdb
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.csproj.AssemblyReference.cache
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.GeneratedMSBuildEditorConfig.editorconfig
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.AssemblyInfoInputs.cache
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.AssemblyInfo.cs
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.csproj.CoreCompileInputs.cache
+D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.csproj.CopyComplete
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.dll
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\refint\SonhoSemijoiasDataBase.dll
 D:\C# Examples\SonhoSemijoias\Projects\SonhoSemijoiasDataBase\obj\Debug\net6.0\SonhoSemijoiasDataBase.pdb

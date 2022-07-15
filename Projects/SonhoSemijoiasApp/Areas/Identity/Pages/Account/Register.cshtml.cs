@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using ToDoList.Data;
+using SonhoSemijoiasAPP.Data;
 
 namespace CursoApp.Areas.Identity.Pages.Account
 {
@@ -40,11 +40,6 @@ namespace CursoApp.Areas.Identity.Pages.Account
             _emailSender = emailSender;
             _applicationDbContext = applicationDbContext;
             
-        }
-        public enum NivelAcesso
-        {
-            Pessoal,
-            Empresa
         }
 
         public enum Atividade
@@ -81,11 +76,6 @@ namespace CursoApp.Areas.Identity.Pages.Account
             public string ConfirmPassword { get; set; }
 
             public Atividade ClaimValue { get; set; }
-
-            [Required]
-            [Display(Name = "Selecione seu perfil")]
-            [DataType("Perfil")]
-            public NivelAcesso ClaimType { get; set; }
         }
 
 
@@ -109,21 +99,6 @@ namespace CursoApp.Areas.Identity.Pages.Account
                     UserName = Input.Email, 
                     Email = Input.Email
                 };
-                if (Input.ClaimType == NivelAcesso.Professor)
-                {
-                    claimType = NivelAcesso.Professor.ToString();
-                    var values = Enum.GetValues(typeof(Atividade));
-                    foreach (var item in values)
-                    {
-                        type = item.ToString();
-                    }
-                }
-                else
-                {
-                    claimType = NivelAcesso.Aluno.ToString();
-                    type = Atividade.Visualizar.ToString();
-
-                }
 
                 var claim = new IdentityUserClaim<string>
                 {

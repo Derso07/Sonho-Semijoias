@@ -4,6 +4,11 @@ namespace SonhoSemijoiasBusiness.Models
 {
     public class Produto : Entity
     {
+
+        public Produto()
+        {
+
+        }
         public Produto(string titulo, string descricao, double preco, int quantidade, DateTime dataCadastro, bool ativo, int categoriaId, Categoria categoria)
         {
             Titulo = titulo;
