@@ -36,7 +36,7 @@ namespace SonhoSemijoiasDataBase.Mappings
                 .IsRequired()
                 .HasColumnType("datetime");
 
-            builder.HasOne<Categoria>(p => p.Categoria)
+            builder.HasOne(p => p.Categoria)
                 .WithMany(p => p.Produtos)
                 .HasForeignKey(p => p.CategoriaId);
 

@@ -4,8 +4,7 @@ namespace SonhoSemijoiasBusiness.Models
 {
     public class Produto : Entity
     {
-
-        public Produto(string titulo, string descricao, double preco, int quantidade, DateTime dataCadastro, bool ativo, int categoriaId, Categoria categoria)
+        public Produto(string titulo, string descricao, double preco, int quantidade, DateTime dataCadastro, bool ativo, Guid categoriaId)
         {
             Titulo = titulo;
             Descricao = descricao;
@@ -14,15 +13,11 @@ namespace SonhoSemijoiasBusiness.Models
             DataCadastro = dataCadastro;
             Ativo = ativo;
             CategoriaId = categoriaId;
-            Categoria = categoria;
         }
 
         public string Titulo { get; set; }
 
         public string Descricao { get; set; }
-
-        [NotMapped]
-        public string Imagem { get; set; }
 
         public double Preco { get; set; }
 
@@ -32,7 +27,7 @@ namespace SonhoSemijoiasBusiness.Models
 
         public bool Ativo { get; set; }
 
-        public int CategoriaId { get; set; }
+        public Guid CategoriaId { get; set; }
 
         public Categoria Categoria { get; set; }
     }

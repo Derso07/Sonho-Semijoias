@@ -2,11 +2,10 @@
 {
     public class Categoria : Entity
     {
-        public Categoria(string titulo, bool ativa, List<Produto> produtos)
+        public Categoria(string titulo, bool ativa)
         {
             Titulo = titulo;
             Ativa = ativa;
-            Produtos = produtos;
         }
 
         public string Titulo { get; set; }
